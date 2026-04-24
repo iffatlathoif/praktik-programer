@@ -1,5 +1,6 @@
 package com.tes.praktik.Praktik.Programmer;
-
+import com.tes.praktik.Praktik.Programmer.repository.PasienRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -34,7 +35,7 @@ public class PraktikProgrammerApplication {
 	public static void tampilkanDeskripsi() {
 		System.out.println("Selamat Datang Di Mini Create Read Pasien");
 		System.out.println("Pilih 1 untuk simpan pasien");
-		System.out.println("Pilih 2 untuk read pasien")
+		System.out.println("Pilih 2 untuk read pasien");
 	}
 
 	public static void simpanPasien(Pasien pasien) {
